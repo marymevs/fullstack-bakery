@@ -23,7 +23,6 @@ nav {
 main {
   display: flex;
   gap: 1ch;
-  justify-content: center;
 }
 
 ul {
@@ -48,14 +47,22 @@ footer {
   color: white;
 }
 
+.quoteblock {
+  background-color: #ededed;
+  width: 100%;
+}
+
 .testimonial {
-  background-color: lightgray;
+  font-style: italic;
+}
+
+blockquote {
+  margin: 0;
 }
 
 article {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
 }
 
 p {
