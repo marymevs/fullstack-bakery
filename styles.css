@@ -7,6 +7,7 @@ header {
   align-items: center;
   justify-content: space-between;
   height: auto;
+  margin: 8px;
 }
 
 .brand {
@@ -23,6 +24,8 @@ nav {
 main {
   display: flex;
   gap: 1ch;
+  height: 85vh;
+  margin: 8px;
 }
 
 ul {
@@ -31,6 +34,7 @@ ul {
   gap: 1ch;
   width: 100px;
   margin: 0;
+  padding: 0;
 }
 
 li {
@@ -43,8 +47,13 @@ li {
 }
 
 footer {
+  display: flex;
   background-color: black;
   color: white;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
 }
 
 .quoteblock {
@@ -63,6 +72,7 @@ blockquote {
 article {
   display: flex;
   flex-direction: column;
+  gap: 1ch;
 }
 
 p {
@@ -73,12 +83,16 @@ h1 {
   margin: 0;
 }
 
+body {
+  margin: 0;
+}
+
 /* To Do:
 
 * bold header text [x]
-* justify grey text with rest []
-* modify footer to fit the bottom of the page []
+* justify grey text with rest [x]
+* modify footer to fit the bottom of the page [x]
 * capitalize and change color of header nav bar menu items []
-* justify side panel so it's centered between left side and main section []
+* justify side panel so it's centered between left side and main section [x]
 
 */
