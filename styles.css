@@ -12,6 +12,7 @@ header {
 .brand {
   color: #b02121;
   font-size: 40px;
+  font-weight: bold;
 }
 
 nav {
@@ -67,7 +68,7 @@ h1 {
 
 /* To Do:
 
-* bold header text []
+* bold header text [x]
 * justify grey text with rest []
 * modify footer to fit the bottom of the page []
 * capitalize and change color of header nav bar menu items []
