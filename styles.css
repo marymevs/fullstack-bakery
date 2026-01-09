@@ -1,0 +1,66 @@
+html {
+  font-family: Arial;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+}
+
+.brand {
+  color: #b02121;
+  font-size: 40px;
+}
+
+nav {
+  display: flex;
+  gap: 1ch;
+}
+
+main {
+  display: flex;
+  gap: 1ch;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1ch;
+  width: 100px;
+  margin: 0;
+}
+
+li {
+  background-color: #b02121;
+  border-radius: 5px;
+  color: white;
+  height: 25px;
+  padding: 5px;
+  align-content: center;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.testimonial {
+  background-color: lightgray;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
